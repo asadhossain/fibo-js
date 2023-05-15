@@ -1,6 +1,11 @@
-var firstNum = 0;
-var secNum = 0;
-var fibo;
-var i;
-for(i=0; )
-document.write("asad hossaom" + i);
+
+
+var a = 0, b = 1;
+
+for(var i=0; i<=10; i++ ){
+    var temp = a + b;
+    console.log(temp);
+    a = b;
+    b = temp;
+document.write(temp + "<br>");
+}
